@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Pamela Fernandes</title>
+    <meta name="description" content="Portfólio de trabalhos jornalísticos de Pamela Fernandes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Pamela<span>FP</span></a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfólio</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section portfolio-page">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meu Portfólio</h2>
+                <p class="section-subtitle">Uma seleção dos meus melhores trabalhos</p>
+            </div>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="reportagem">Reportagens</button>
+                <button class="filter-btn" data-filter="video">Vídeos</button>
+                <button class="filter-btn" data-filter="podcast">Podcasts</button>
+                <button class="filter-btn" data-filter="foto">Fotografia</button>
+                <button class="filter-btn" data-filter="dados">Jornalismo de Dados</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="reportagem">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio1.jpg" alt="Impacto da Pandemia na Educação">
+                        <div class="portfolio-overlay">
+                            <h3>Impacto da Pandemia na Educação</h3>
+                            <p>Reportagem investigativa sobre os efeitos do ensino remoto</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a> {/* Link para página de detalhe do portfólio */}
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="video">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio2.jpg" alt="Comunidades Sustentáveis">
+                        <div class="portfolio-overlay">
+                            <h3>Comunidades Sustentáveis</h3>
+                            <p>Documentário sobre iniciativas comunitárias de sustentabilidade</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="podcast">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio3.jpg" alt="Vozes do Amanhã">
+                        <div class="portfolio-overlay">
+                            <h3>Vozes do Amanhã</h3>
+                            <p>Série de podcasts com jovens ativistas</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="foto">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio4.jpg" alt="Retratos Urbanos">
+                        <div class="portfolio-overlay">
+                            <h3>Retratos Urbanos</h3>
+                            <p>Fotografia | Exposição</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="dados">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio5.jpg" alt="Jornalismo de Dados">
+                        <div class="portfolio-overlay">
+                            <h3>Desigualdade em Números</h3>
+                            <p>Análise de dados sobre questões sociais</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="portfolio-item" data-category="reportagem">
+                    <div class="portfolio-img">
+                        <img src="images/portfolio6.jpg" alt="Reportagem Mobilidade">
+                        <div class="portfolio-overlay">
+                            <h3>Desafios da Mobilidade Urbana</h3>
+                            <p>Reportagem especial sobre transporte público</p>
+                            <a href="portfolio-single.html" class="portfolio-link"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-more">
+                <a href="#" class="btn btn-primary">Carregar Mais Trabalhos</a> {/* Lógica de paginação/carregamento aqui */}
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">Pamela<span>FP</span></a>
+                    <p>Jornalista apaixonada por contar histórias que importam. Compartilhando narrativas, reflexões e trabalhos através deste espaço.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-posts">
+                    <h3>Posts Recentes</h3>
+                    <ul>
+                        <li><a href="posts/post1.html">O Futuro do Jornalismo Local</a></li>
+                        <li><a href="posts/post2.html">A Arte de Contar Histórias Reais</a></li>
+                        <li><a href="posts/post3.html">IA no Jornalismo: Ameaça ou Oportunidade?</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Assine para receber atualizações e conteúdos exclusivos.</p>
+                    <form id="footerNewsletterPortfolio" action="#" method="post">
+                        <input type="email" name="footerEmailPortfolio" placeholder="Seu email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2023 Pamela Fernandes Pereira. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://br.linkedin.com/in/p%C3%A2mela-fernandes-pereira-18572a31b?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Simples filtro do portfólio (exemplo, idealmente em main.js)
+        document.querySelectorAll('.portfolio-filter .filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.portfolio-filter .filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                document.querySelectorAll('.portfolio-item').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block'; // Ou use classes para animação
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

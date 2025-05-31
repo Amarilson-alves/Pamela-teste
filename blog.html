@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Pamela Fernandes</title>
+    <meta name="description" content="Artigos e reflexões sobre jornalismo por Pamela Fernandes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Pamela<span>FP</span></a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section blog-listing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Blog</h2>
+                <p class="section-subtitle">Artigos, reflexões e novidades sobre jornalismo</p>
+            </div>
+            
+            <div class="blog-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="jornalismo">Jornalismo</button>
+                <button class="filter-btn" data-filter="storytelling">Storytelling</button>
+                <button class="filter-btn" data-filter="tecnologia">Tecnologia</button>
+                <button class="filter-btn" data-filter="entrevistas">Entrevistas</button>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card" data-category="jornalismo">
+                    <div class="blog-img">
+                        <img src="images/blog1.jpg" alt="O Futuro do Jornalismo Local">
+                        <div class="blog-date">15 Jun 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-tag"></i> Jornalismo</span>
+                            <span><i class="fas fa-comments"></i> 12 Comentários</span>
+                        </div>
+                        <h3><a href="posts/post1.html">O Futuro do Jornalismo Local</a></h3>
+                        <p>Como as redações locais estão se adaptando aos novos tempos e mantendo sua relevância na era digital.</p>
+                        <a href="posts/post1.html" class="blog-readmore">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="storytelling">
+                    <div class="blog-img">
+                        <img src="images/blog2.jpg" alt="A Arte de Contar Histórias Reais">
+                        <div class="blog-date">02 Jun 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-tag"></i> Storytelling</span>
+                            <span><i class="fas fa-comments"></i> 8 Comentários</span>
+                        </div>
+                        <h3><a href="posts/post2.html">A Arte de Contar Histórias Reais</a></h3>
+                        <p>Técnicas para transformar fatos em narrativas envolventes que cativam o público sem perder o rigor jornalístico.</p>
+                        <a href="posts/post2.html" class="blog-readmore">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="tecnologia">
+                    <div class="blog-img">
+                        <img src="images/blog3.jpg" alt="IA no Jornalismo">
+                        <div class="blog-date">20 Mai 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-tag"></i> Tecnologia</span>
+                            <span><i class="fas fa-comments"></i> 15 Comentários</span>
+                        </div>
+                        <h3><a href="posts/post3.html">IA no Jornalismo: Ameaça ou Oportunidade?</a></h3>
+                        <p>Explorando como a inteligência artificial está transformando a produção de conteúdo e o que isso significa para os jornalistas.</p>
+                        <a href="posts/post3.html" class="blog-readmore">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card" data-category="entrevistas">
+                    <div class="blog-img">
+                        <img src="images/blog4.jpg" alt="Entrevista com Líder Comunitário">
+                        <div class="blog-date">10 Abr 2023</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-tag"></i> Entrevistas</span>
+                            <span><i class="fas fa-comments"></i> 10 Comentários</span>
+                        </div>
+                        <h3><a href="posts/post4.html">Entrevista Exclusiva: A Voz da Comunidade</a></h3>
+                        <p>Uma conversa profunda com um líder comunitário sobre os desafios e esperanças locais.</p>
+                        <a href="posts/post4.html" class="blog-readmore">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-numbers current">1</a>
+                <a href="#" class="page-numbers">2</a>
+                <a href="#" class="page-numbers">3</a>
+                <a href="#" class="next page-numbers">Próximo <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">Pamela<span>FP</span></a>
+                    <p>Jornalista apaixonada por contar histórias que importam. Compartilhando narrativas, reflexões e trabalhos através deste espaço.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-posts">
+                    <h3>Posts Recentes</h3>
+                    <ul>
+                        <li><a href="posts/post1.html">O Futuro do Jornalismo Local</a></li>
+                        <li><a href="posts/post2.html">A Arte de Contar Histórias Reais</a></li>
+                        <li><a href="posts/post3.html">IA no Jornalismo: Ameaça ou Oportunidade?</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Assine para receber atualizações e conteúdos exclusivos.</p>
+                    <form id="footerNewsletterBlog" action="#" method="post">
+                        <input type="email" name="footerEmailBlog" placeholder="Seu email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2023 Pamela Fernandes Pereira. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://br.linkedin.com/in/p%C3%A2mela-fernandes-pereira-18572a31b?trk=people-guest_people_search-card" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+        // Filtro do blog (preferencialmente em main.js)
+        document.querySelectorAll('.blog-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.blog-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                document.querySelectorAll('.blog-card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block'; // Ou use classes para animação
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
